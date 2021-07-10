@@ -1,0 +1,196 @@
+a:link {
+  text-decoration:none;
+  
+}
+
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+}
+/*font-family: 'Ubuntu', sans-serif;*/
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+h2
+{
+font-family: "Montserrat-Bold";
+font-size: 3rem;
+line-height:1.5;
+}
+#pricing
+{
+  padding:100px;
+  text-align:center;
+}
+.pricing-item
+{
+padding:3% 2%;
+}
+#press
+{
+  background-color:#ef8172;
+  color:white;
+  text-align:center;
+  padding-bottom:3%;
+}
+.si{
+	
+	border:1px outset black;
+	height:40px;
+	width:15%;
+	background:#035afc;
+	border-radius:30px 30px 30px 30px;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.testimonial-image
+{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+#testimonials
+{
+
+  text-align: center;
+  background-color:#ef8172;
+  color:white;
+}
+.carousel-item
+{
+   padding: 7% 15%;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+position:absolute;
+right:30%;
+}
+
+#features
+{
+  background-color:white;
+padding:7% 15%;
+position:relative;
+
+}
+@media (max-width:1028px)
+{
+#title
+{
+  text-align:center;
+}
+.title-image
+{
+  position:static;
+  transform:rotate(0);
+}
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+h3
+{
+font-family: "Montserrat-Bold";
+}
+h1
+{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+p{
+  color:#afafaf;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+body{
+  font-family: "Montserrat";
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-weight: light;
+}
+#cta{
+  text-align:center;
+  padding:7% 15%;
+  background-color:#ff4c68;
+  color:white;
+}
+#footer{
+  padding:7% 15%;
+  text-align:center;
+}
+.cta-heading
+{
+  font-family:"ubuntu-Bold";
+  font-size: 4rem;
+  line-height:1.5;
+  padding-bottom: 20px;
+}
+h3
+{
+  font-family:"ubuntu-Bold";
+  font-size: 1.5rem;
+  line-height:1.5;
+  padding-bottom: 20px;
+}
+.btn{
+  margin:10px;
+}
+.social-icon
+{
+  margin:10px 20px;
+}
+
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
